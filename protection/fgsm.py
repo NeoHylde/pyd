@@ -64,5 +64,5 @@ def fgsm(image_path, epsilon):
     return adv_x
 
 if __name__ == "__main__":
-    img = fgsm("YellowLabradorLooking_new.jpg", 0.1)
+    img = fgsm("YellowLabradorLooking_new.jpg", 0.15)
     display_images(img)
